@@ -1,0 +1,60 @@
+.filterUsersPanel {
+  margin-bottom: 10px;
+  padding: 20px 21px 14px 35px;
+  background: #fff;
+  border-radius: 10px;
+
+  .btns {
+    margin-bottom: 6px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+
+    .filterBtns {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-column-gap: 44px;
+      font: 500 15px/130% 'Montserrat', sans-serif;
+
+      div {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        grid-column-gap: 20px;
+        cursor: pointer;
+      }
+
+      :hover{
+        color: #FF7439;
+          
+        svg {
+          fill: #FF7439;
+        }
+        span svg{
+          transform: rotate(180deg);
+        }
+      }
+    }
+    .additionBtns {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-column-gap: 11px;
+        
+      button {
+        height: 45px;
+        font: bold 14px/150% 'Montserrat', sans-serif;
+        border-radius: 7px;
+        outline: none;
+        cursor: pointer;
+      }
+      .unloadBtn {
+        border: 2px solid #000;
+      }
+      .addContactsBtn {
+        background: #ff7439;
+        color: #fff;
+        border: none;
+      }
+    }
+  } 
+}

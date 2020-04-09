@@ -1,0 +1,29 @@
+.filtrationInterval {
+  margin-top: 22px;
+  padding-top: 11px;
+  border-top: 1px solid #E7ECF1;
+
+  .timeInterval {
+    width: 223px - 23px - 6px;
+    height: 41px;
+    padding: 0 6px 0 23px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+    font: bold 15px/150% 'PT Sans', sans-serif;
+    color: #fff;
+    background: #586375;
+    border-radius: 100px;
+
+    button {
+      width: 27px;
+      height: 27px;
+      background: #677489;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  
+  .logo {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 9px;
+    font: 13px/140% 'Montserrat', sans-serif;
+    cursor: pointer;
+  }
+  .headerBtns {
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 17px;
+      
+    button {
+      height: 43px;
+      font: bold 14px/17px 'Montserrat', sans-serif;
+      border-radius: 100px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .lightHeaderBtn {
+      box-shadow: 0px 10px 40px rgba(213, 221, 230, 0.6);
+    }
+    .darkHeaderBtn {
+      background: rgba(203, 215, 228, 0.4);
+    }
+    .circle {
+      width: 43px;
+    }
+    .userSettings {
+      width: 120px;
+        
+      img {
+        margin-left: 15px; 
+      }
+    }
+    .languageSettings {
+      width: 64px;
+  
+      img {
+        margin-left: 8px; 
+      }
+    }
+  }
+}

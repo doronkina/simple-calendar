@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  overflow: auto;
+  padding: 10px 38px;
+  background: #F0F6FC;
+
+  .mainWrapper {
+    margin-right: 273px - 38px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 104px;
+  }
+}

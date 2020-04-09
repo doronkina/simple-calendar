@@ -1,0 +1,32 @@
+.navMenu {
+  margin-bottom: 11px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+
+  button {
+    height: 54px;
+    font: bold 15px/130% 'PT Sans', sans-serif;
+    color: #2b2b2b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .navBtn {
+    z-index: 10;
+    width: 112px;
+    border-radius: 10px 0 0 10px;
+  }
+  .arrowBtn {
+    z-index: 2;
+    width: 65px;
+    box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+    border-radius: 0 10px 10px 0;
+  }
+  .imgBtn {
+    width: 59px;
+    border-radius: 0 10px 10px 0;
+  }
+}

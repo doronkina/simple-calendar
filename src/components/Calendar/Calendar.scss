@@ -1,0 +1,156 @@
+.calendarBg {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(240, 246, 252, 0.7);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+}
+.calendarWrapper {
+    position: absolute;
+    top: 171px;
+    left: 343px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+    cursor: default;
+
+    .calendarBtns {
+        width: 176px;
+        box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+        border-radius: 10px;
+        background: #fff;
+        
+        :first-child {
+            margin-top: 10px;
+        }
+        button {
+            width: 156px;
+            height: 39px;
+            margin: 0 auto;
+            display: block;
+            font: 15px/19px 'PT Sans', sans-serif;
+            text-align: left;
+            border: 2px solid #FFF;
+            border-radius: 5px;
+            outline: none;
+        }
+        button:hover {
+            border: 2px solid #EBEEF3;
+        }
+        button:active {
+            border: 2px solid #F0F3F8;
+            background: #F0F3F8;
+        }
+    }
+    .calendar {
+        box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+        border-radius: 10px;
+        background: #fff;
+
+        .calendarNav {
+            margin: 17px 15px 16px;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            justify-content: space-between;
+            font: 16px/21px 'PT Sans', sans-serif;
+        }
+        table {
+            padding: 10px 8px 16px;
+            display: block;
+            background: #F3F8FD;
+            border-collapse: collapse;
+
+            tr {
+                border-bottom: 2px solid transparent;
+            }
+            th, td {
+                width: (288px - 2 * 8px) / 7;
+            }
+            thead {
+                font: bold 12px/15px 'Montserrat', sans-serif;
+
+                th {
+                    width: 28px;
+                    height: 28px + 4px;
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+            tbody {
+                font: 12px/15px 'Montserrat', sans-serif;
+
+                td {
+                    padding: 0;
+
+                    span {
+                        width: 28px;
+                        height: 28px;
+                        margin: 0 auto;
+                        display: block;
+                        text-align: center;
+                    }
+                    .noCurrentMonthDate {
+                        opacity: .22;
+                    }
+                    .currentMonthDay:hover {
+                        border-radius: 50%;
+                        background: #DFE9F3;
+                        color: #000;
+                    }
+                    .markedDate {
+                        border-radius: 50%;
+                        background: #FF7439;
+                        color: #fff;
+                    }
+                }
+                .includesDate {
+                    background: rgba(255, 116, 57, 0.2);
+                }
+                .firstMarkedDate {
+                    background: linear-gradient(to right, transparent 50%, rgba(255, 116, 57, 0.2) 50%);
+                }
+                .secondMarkedDate {
+                    background: linear-gradient(to left, transparent 50%, rgba(255, 116, 57, 0.2) 50%);
+                }
+            }
+        }
+        .submitForm {
+            margin: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: space-between;
+
+            button {
+                width: 130px;
+                height: 45px;
+                font: 600 12px/150% 'Montserrat', sans-serif;
+                border-radius: 7px;
+                outline: none;
+            }
+            .cancel {
+                border: 2px solid #000;
+            }
+            .cancel:hover {
+                background: #000;
+                color: #fff;
+            }
+            :last-child {
+                color: #fff;
+                border: none;
+            }
+            .update {
+                background: rgba(255, 116, 57, 0.5);background: rgba(255, 116, 57, 0.5);
+            }
+            .activeUpdateBtn {
+                background: #FF7439;
+            }
+            .activeUpdateBtn:hover {
+                background: #F16E36;
+            }
+        }
+    }
+}
