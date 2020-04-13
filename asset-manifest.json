@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/simple-calendar/static/css/main.7003f17f.chunk.css",
+    "main.js": "/simple-calendar/static/js/main.3934a356.chunk.js",
+    "main.js.map": "/simple-calendar/static/js/main.3934a356.chunk.js.map",
+    "runtime-main.js": "/simple-calendar/static/js/runtime-main.a67069a8.js",
+    "runtime-main.js.map": "/simple-calendar/static/js/runtime-main.a67069a8.js.map",
+    "static/js/2.ceb3e58b.chunk.js": "/simple-calendar/static/js/2.ceb3e58b.chunk.js",
+    "static/js/2.ceb3e58b.chunk.js.map": "/simple-calendar/static/js/2.ceb3e58b.chunk.js.map",
+    "index.html": "/simple-calendar/index.html",
+    "precache-manifest.260c3d1cf6df601db4d430d4556fb87b.js": "/simple-calendar/precache-manifest.260c3d1cf6df601db4d430d4556fb87b.js",
+    "service-worker.js": "/simple-calendar/service-worker.js",
+    "static/css/main.7003f17f.chunk.css.map": "/simple-calendar/static/css/main.7003f17f.chunk.css.map",
+    "static/js/2.ceb3e58b.chunk.js.LICENSE.txt": "/simple-calendar/static/js/2.ceb3e58b.chunk.js.LICENSE.txt",
+    "static/media/analytics.svg": "/simple-calendar/static/media/analytics.20754144.svg",
+    "static/media/arrowDown.svg": "/simple-calendar/static/media/arrowDown.fe8d3a55.svg",
+    "static/media/arrowLeft.svg": "/simple-calendar/static/media/arrowLeft.82ede423.svg",
+    "static/media/arrowRight.svg": "/simple-calendar/static/media/arrowRight.2a4c1ccf.svg",
+    "static/media/bell.svg": "/simple-calendar/static/media/bell.74a1e2cc.svg",
+    "static/media/broadcasts.svg": "/simple-calendar/static/media/broadcasts.0529b839.svg",
+    "static/media/cancel.svg": "/simple-calendar/static/media/cancel.f6672e1d.svg",
+    "static/media/edit.svg": "/simple-calendar/static/media/edit.f5630fbe.svg",
+    "static/media/logo.svg": "/simple-calendar/static/media/logo.6fb64296.svg",
+    "static/media/mailingLists.svg": "/simple-calendar/static/media/mailingLists.a855ef1c.svg",
+    "static/media/marketing.svg": "/simple-calendar/static/media/marketing.bfd085fc.svg",
+    "static/media/navIcon.svg": "/simple-calendar/static/media/navIcon.a80ecac1.svg",
+    "static/media/payments.svg": "/simple-calendar/static/media/payments.57d854cc.svg",
+    "static/media/product.svg": "/simple-calendar/static/media/product.17a2e73f.svg",
+    "static/media/searching.svg": "/simple-calendar/static/media/searching.678baa59.svg",
+    "static/media/settings.svg": "/simple-calendar/static/media/settings.615adcff.svg",
+    "static/media/siteBuilder.svg": "/simple-calendar/static/media/siteBuilder.531c9d9d.svg",
+    "static/media/trash.svg": "/simple-calendar/static/media/trash.2531a105.svg",
+    "static/media/users.svg": "/simple-calendar/static/media/users.1efe1a53.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a67069a8.js",
+    "static/js/2.ceb3e58b.chunk.js",
+    "static/css/main.7003f17f.chunk.css",
+    "static/js/main.3934a356.chunk.js"
+  ]
+}
